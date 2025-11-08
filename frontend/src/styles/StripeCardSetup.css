@@ -1,0 +1,132 @@
+.card-setup {
+  background: white;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card-setup-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-setup-header h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.card-setup-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.card-setup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-element-wrapper {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 12px;
+  background: white;
+}
+
+.test-card-info {
+  background: #e3f2fd;
+  border: 1px solid #bbdefb;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.test-card-label {
+  font-weight: 600;
+  color: #1565c0;
+  margin-bottom: 8px;
+}
+
+.test-card-number {
+  font-family: 'Courier New', monospace;
+  color: #1565c0;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.test-card-details {
+  color: #1565c0;
+  font-size: 13px;
+}
+
+.message {
+  padding: 12px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  animation: slideIn 0.3s ease;
+}
+
+.message-success {
+  background: #c8e6c9;
+  border: 1px solid #81c784;
+  color: #2e7d32;
+}
+
+.message-error {
+  background: #ffcdd2;
+  border: 1px solid #e57373;
+  color: #c62828;
+}
+
+.message-info {
+  background: #bbdefb;
+  border: 1px solid #64b5f6;
+  color: #1565c0;
+}
+
+.message p {
+  margin: 0;
+}
+
+.submit-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.submit-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.info-text {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin: 0;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
